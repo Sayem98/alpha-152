@@ -26,9 +26,7 @@ export const Main = () => {
             ref={videoRef}
             className=""
             src="src/assets/mainvideo.mp4"
-            type="video/mp4"
             muted
-            autoplay
             loop
           ></video>
         </div>
