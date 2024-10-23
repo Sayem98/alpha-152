@@ -1,11 +1,12 @@
 import { ErrorBoundary } from "react-error-boundary";
 import Layout from "./components/Layout";
+import { Main } from "./pages/Main";
 
 const App = () => {
   return (
     <ErrorBoundary fallback={<div>Something went wrong</div>}>
       <Layout>
-        <h1>App</h1>
+        <Main />
       </Layout>
     </ErrorBoundary>
   );
