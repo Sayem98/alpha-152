@@ -18,14 +18,14 @@ export const Main = () => {
 
   return (
     <div className="w-full bg-black">
-      <img src="src/assets/banner-png.png" alt="main" className="w-full" />
+      <img src="/assets/images/banner-png.png" alt="main" className="w-full" />
       <div className="flex gap-5 flex-col md:flex-row">
         {/* video */}
         <div className="flex-4">
           <video
             ref={videoRef}
             className=""
-            src="src/assets/mainvideo.mp4"
+            src="/assets/images/mainvideo.mp4"
             muted
             loop
           ></video>
@@ -42,7 +42,7 @@ export const Main = () => {
             mercilessly without exception.
           </p>
           <img
-            src="src/assets/alpha-gif.gif"
+            src="/assets/images/alpha-gif.gif"
             alt="alpha gif"
             className="w-full"
           />
@@ -61,12 +61,12 @@ export const Main = () => {
             signifies the importance of balance between work and personal life.
           </p>
           <img
-            src="src/assets/trump-gif.gif"
+            src="/assets/images/trump-gif.gif"
             alt="alpha gif"
             className="w-full mt-5"
           />
         </div>
-        <img src="src/assets/trump.png" alt="main" className="w-full" />
+        <img src="/assets/images/trump.png" alt="main" className="w-full" />
       </div>
     </div>
   );

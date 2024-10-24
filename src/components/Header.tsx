@@ -5,25 +5,29 @@ export default function Header() {
     <div className="bg-black w-full">
       <div className=" flex flex-col max-w-[2000px] mx-auto md:px-0 ">
         <div className="flex w-full flex-col md:flex-row">
-          <img src="src/assets/logo.png" alt="logo" className="w-32  mx-auto" />
+          <img
+            src="/assets/images/Logo.png"
+            alt="logo"
+            className="w-32  mx-auto"
+          />
           <div className="flex justify-center items-center gap-12  w-full">
             <NavLink
-              image="src/assets/twitter-white.png"
+              image="/assets/images/twitter-white.png"
               url="https://x.com/alphaonefivetwo"
             />
             {/* telegram */}
             <NavLink
-              image="src/assets/telegram-white.png"
+              image="/assets/images/telegram-white.png"
               url="https://t/.co/tVNCRl4mGK"
             />
             {/* discord */}
             <NavLink
-              image="src/assets/discord-white.png"
+              image="/assets/images/discord-white.png"
               url="https://discord.com"
             />
             {/* decscreener */}
             <NavLink
-              image="src/assets/dex.png"
+              image="/assets/images/dex.png"
               url="https://dexscreener.com/solana/alhnhedzgh7vt6ezwsdfybbvy3j634xcvxcfqwexerf5"
             />
           </div>
