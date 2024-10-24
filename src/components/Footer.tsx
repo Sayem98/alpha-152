@@ -2,17 +2,15 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-gray-800 p-4 flex flex-col gap-2">
-        <h1 className="text-white font-bold text-3xl">Alpha-152</h1>
-        <p className="text-white text-start">
-          Alpha-152 Token is a meme token created for entertainment purposes
-          only and has no association with any stocks, equities, or securities.
-          Any resemblance or association between Alpha-152 and the “Stock
-          Market” is purely coincidental and intended for satirical or humorous
-          purposes. Alpha-152 token is a meme token with no intrinsic value or
-          expectation of financial return. © 2023 by $SPX. All rights reserved!
-          Contact: admin@Alpha-152.com
+        <h1 className="text-white font-bold text-xl">Alpha-152</h1>
+        <p className="text-white text-start text-[14px]">
+          Alpha-152 Token is a meme token designed solely for entertainment and
+          has no ties to stocks, equities, or securities. Any similarities to
+          traditional financial concepts are meant purely as satire and should
+          not be interpreted seriously. Alpha-152 has no intrinsic value and
+          does not promise any financial returns. © 2023 by $ALPHA-152. All
+          rights reserved!
         </p>
-        <p className="text-[#4cc3a9] text-end">Powered by Alpha-152</p>
       </footer>
     </div>
   );

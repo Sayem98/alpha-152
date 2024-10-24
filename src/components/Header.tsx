@@ -40,19 +40,14 @@ export default function Header() {
             Home
           </a>
           <a href="#" className="">
-            About
+            study 152
+          </a>
+
+          <a href="#" className="">
+            merch
           </a>
           <a href="#" className="">
-            Roadmap
-          </a>
-          <a href="#" className="">
-            Team
-          </a>
-          <a href="#" className="">
-            FAQ
-          </a>
-          <a href="#" className="">
-            Contact
+            Community Content
           </a>
         </nav>
       </div>

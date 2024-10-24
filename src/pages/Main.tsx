@@ -32,9 +32,9 @@ export const Main = () => {
         </div>
         {/* story */}
         <div className="flex-1 flex flex-col justify-start items-center gap-4 text-[#4cc3a9]  px-5 md:px-0">
-          <h1 className="text-4xl font-bold">Lore behind Alpha-152 </h1>
+          <h1 className="text-4xl font-bold">Study 152 </h1>
           <p className="font-bold text-lg md:text-2xl">
-            Alpha-152 is the final stage of the Alpha series of hunan wepons, a
+            Alpha-152 is the final stage of the Alpha series of hunan weapons, a
             group of hyperclones created from Kasumi's DNA by the evil genious
             Donovan. Having just been born, Alpha-152 is immaculate; she is a
             blake slate, and precisely because of that, the combat instincts
