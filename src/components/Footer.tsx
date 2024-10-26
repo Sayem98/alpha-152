@@ -8,8 +8,11 @@ const Footer = () => {
           has no ties to stocks, equities, or securities. Any similarities to
           traditional financial concepts are meant purely as satire and should
           not be interpreted seriously. Alpha-152 has no intrinsic value and
-          does not promise any financial returns. © 2023 by $ALPHA-152. All
-          rights reserved!
+          does not promise any financial returns.
+        </p>
+        <p className="text-white text-end">
+          {" "}
+          © 2023 by $ALPHA-152. All rights reserved!
         </p>
       </footer>
     </div>
