@@ -36,7 +36,7 @@ export const Main = () => {
           <img
             src="/assets/images/lore.gif"
             alt="alpha gif"
-            className="w-full md:w-[50%]"
+            className="w-full md:w-[50%] rounded-md"
           />
           <div className="md:w-[40%] flex flex-col gap-5">
             <h1 className="text-4xl font-bold">Lore </h1>
@@ -53,7 +53,7 @@ export const Main = () => {
           <img
             src="/assets/images/eye.gif"
             alt="alpha gif"
-            className="mt-5 md:h-[800px]"
+            className="mt-5 md:h-[800px] rounded-md"
           />
           <div className="md:ml-20 py-5 flex flex-col gap-2 justify-center">
             <h1 className="text-4xl font-bold">Study 152 </h1>
@@ -67,39 +67,51 @@ export const Main = () => {
             </p>
           </div>
         </div>
-        <img src="/assets/images/trump.png" alt="main" className="w-full" />
+        <img
+          src="/assets/images/trump.png"
+          alt="main"
+          className="w-full rounded-md"
+        />
       </div>
       <div className="flex mt-5 flex-col md:flex-row text-[#4cc3a9]">
-        <img
-          src="/assets/images/token-details.gif"
-          alt="main"
-          className="w-full"
-        />
-        <div className="px-5 py-1 flex flex-col justify-center items-center gap-1 md:gap-5">
-          <h1 className="text-xl font-bold">CONTRACT ADDRESS</h1>
+        <div className="px-5 py-1 flex flex-col justify-center gap-1 md:gap-5">
+          <h1 className="text-xl font-bold text-center">CONTRACT ADDRESS</h1>
           <a
             className="text-sm md:text-xl font-bold"
             href="https://solscan.io/token/EvNBoWwZFF6pPpjTnNSzrurxkDfw1PGUmih1eAStpump"
           >
             EvNBoWwZFF6pPpjTnNSzrurxkDfw1PGUmih1eAStpump{" "}
           </a>
-          <p className="font-bold  mt-5 text-lg md:text-2xl">Ticker: $ALPHA</p>
-          <p className="font-bold  mt-5 text-lg md:text-2xl">
-            Total supply: 1,000,000,000
-          </p>
-          <p className="font-bold  mt-5 text-lg md:text-2xl">
-            Circulating supply: 969,800,000
-          </p>
-          <p className="font-bold  mt-5 text-lg md:text-2xl">
-            Total burned: 15,200,000{" "}
-          </p>
-          <p className="font-bold  mt-5 text-lg md:text-2xl">
-            Locked supply for 152 years: 25,000,000
-          </p>
+          <div>
+            <p className="font-bold  mt-5 text-lg md:text-2xl">
+              Ticker: $ALPHA
+            </p>
+            <p className="font-bold  mt-5 text-lg md:text-2xl">
+              Total supply: 1,000,000,000
+            </p>
+            <p className="font-bold  mt-5 text-lg md:text-2xl">
+              Circulating supply: 969,800,000
+            </p>
+            <p className="font-bold  mt-5 text-lg md:text-2xl">
+              Total burned: 15,200,000{" "}
+            </p>
+            <p className="font-bold  mt-5 text-lg md:text-2xl">
+              Locked supply for 152 years: 25,000,000
+            </p>
+          </div>
         </div>
-        <img src="/assets/images/computer.gif" alt="main" className="w-full" />
+        <img
+          src="/assets/images/adc.webp"
+          alt="main"
+          className="w-full rounded-md"
+        />
+        {/* <img src="/assets/images/computer.gif" alt="main" className="w-full" /> */}
       </div>
-      <img src="/assets/images/filler.webp" alt="main" className="w-full" />
+      <img
+        src="/assets/images/filler.webp"
+        alt="main"
+        className="w-full mt-1"
+      />
     </div>
   );
 };
