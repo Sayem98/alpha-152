@@ -1,6 +1,16 @@
 import { NavLink } from "./NavLink";
 
 export default function Header() {
+  const scrollToSection = (
+    e: React.MouseEvent<HTMLElement>,
+    sectionId: string
+  ) => {
+    e.preventDefault();
+    const sectionElement = document.getElementById(sectionId);
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="bg-black w-full">
       <div className=" flex flex-col max-w-[2000px] mx-auto md:px-0 ">
@@ -36,11 +46,17 @@ export default function Header() {
         {/* navink */}
 
         <nav className="flex justify-center items-center text-sm md:text-2xl gap-2 md:gap-20 py-3 font-bold uppercase text-[#4cc3a9]">
-          <a href="#" className="">
+          <a href="#" className="" onClick={(e) => scrollToSection(e, "home")}>
             Home
           </a>
-          <a href="#" className="">
+          <a href="#" className="" onClick={(e) => scrollToSection(e, "lore")}>
+            Lore
+          </a>
+          <a href="#" className="" onClick={(e) => scrollToSection(e, "study")}>
             study 152
+          </a>
+          <a href="#" className="" onClick={(e) => scrollToSection(e, "token")}>
+            Token
           </a>
 
           <a href="#" className="">

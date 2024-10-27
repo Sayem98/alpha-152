@@ -18,7 +18,12 @@ export const Main = () => {
 
   return (
     <div className="w-full bg-black">
-      <img src="/assets/images/banner-png.png" alt="main" className="w-full" />
+      <img
+        src="/assets/images/banner-png.png"
+        alt="main"
+        className="w-full"
+        id="home"
+      />
       <div className="flex gap-5 flex-col">
         {/* video */}
         <div className="flex-4">
@@ -32,7 +37,10 @@ export const Main = () => {
           ></video>
         </div>
         {/* story */}
-        <div className="flex-1 flex flex-col md:flex-row justify-between items-center gap-10 text-[#4cc3a9]  px-5 md:px-1 ">
+        <div
+          className="flex-1 flex flex-col md:flex-row justify-between items-center gap-10 text-[#4cc3a9]  px-5 md:px-1 "
+          id="lore"
+        >
           <img
             src="/assets/images/lore.gif"
             alt="alpha gif"
@@ -48,7 +56,7 @@ export const Main = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-5 flex-col md:flex-row">
+      <div className="flex mt-5 flex-col md:flex-row study" id="study">
         <div className="px-5 text-[#4cc3a9] flex flex-col md:flex-row">
           <img
             src="/assets/images/eye.gif"
@@ -73,7 +81,7 @@ export const Main = () => {
           className="w-full rounded-md"
         />
       </div>
-      <div className="flex mt-5 flex-col md:flex-row text-[#4cc3a9]">
+      <div className="flex mt-5 flex-col md:flex-row text-[#4cc3a9]" id="token">
         <div className="px-5 py-1 flex flex-col justify-center gap-1 md:gap-5">
           <h1 className="text-xl font-bold text-center">CONTRACT ADDRESS</h1>
           <a
